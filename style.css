@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 12px; /* Размер основного шрифта в <p></p>  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */
+}
+h1{
+    color: #00a800; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    position: relative; left: 580px;
+}
+
+h1:hover{
+    animation: color-change 3s infinite;
+}
+h2{
+    font-size: 24px;
+    position: relative; left: 100px;
+}
+h3{
+    font-size: 24px;
+    position: relative; left: 490px;
+}
+b{
+    font-size: 26px;
+    position: relative; left: 540px;
+    color: #287a41;
+}
+li{
+    font-size: 20px;
+}
+.Image_1{
+    width: 450px; 
+    height: 300px;
+    position: absolute; left: 1150px; bottom: 30px
+}
+
+.Image_2{
+    width: 450px; 
+    height: 300px;
+    position: absolute; left: 600px; bottom: 30px
+}
+
+.Image_3{
+    width: 450px; 
+    height: 300px;
+    position: absolute; left: 50px; bottom: 30px
+}
+
+.Image_4{
+    width: 125px; 
+    height: 125px;
+    position: absolute; left: 488px; bottom: 120px;
+}
+
+.Image_5{
+    width: 125px; 
+    height: 125px;
+    position: absolute; left: 1038px; bottom: 120px;
+}
+
+.Image_6{
+    width: 450px; 
+    height: 300px;
+    position: absolute; left: 600px; bottom: -350px;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
